@@ -16,6 +16,9 @@ configurations {
         extendsFrom annotationProcessor
     }
 }
+springBoot {
+    mainClass = "ru.nsu.fit.directors.deliveryservice.DeliveryServiceApplication"
+}
 
 repositories {
     mavenCentral()
